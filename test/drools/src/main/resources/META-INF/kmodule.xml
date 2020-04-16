@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <!--可以包含多个kbase，分别对应drl文件-->
+    <kbase name="rules" packages="rules">
+        <ksession name="all-rules"/>
+    </kbase>
+</kmodule>
