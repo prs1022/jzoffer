@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='21960' time_ms='1600246878678'>
+<vm_version>
+<name>
+Java HotSpot(TM) 64-Bit Server VM
+</name>
+<release>
+25.221-b11
+</release>
+<info>
+Java HotSpot(TM) 64-Bit Server VM (25.221-b11) for windows-amd64 JRE (1.8.0_221-b11), built on Jul  4 2019 04:39:29 by &quot;java_re&quot; with MS VC++ 10.0 (VS2010)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-Dfile.encoding=UTF-8 -Dvisualvm.id=608384586753400 -XX:+UnlockDiagnosticVMOptions -XX:+TraceClassLoading -XX:+LogCompilation -javaagent:D:\IDEA2019\IntelliJ IDEA 2019.2.1\lib\idea_rt.jar=55788:D:\IDEA2019\IntelliJ IDEA 2019.2.1\bin -Dfile.encoding=UTF-8 
+</args>
+<command>
+com.lagou.Main1
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=25.221-b11
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed
+sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_221\jre\bin
+java.library.path=C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\jdk-13\jre\bin;D:\jdk-13\bin;C:\Program Files\Git\cmd;C:\Users\rensong.pu\Downloads\kubectl;D:\apache-maven-3.6.1\bin;C:\Users\rensong.pu\AppData\Local\Programs\Python\Python37;C:\Users\rensong.pu\AppData\Local\Programs\Python\Python37\Scripts;D:\python3.6.8;D:\python3.6.8\Scripts;C:\Go\bin;C:\Program Files\nodejs\;D:\soft\bin;C:\Program Files\OpenVPN\bin;C:\Program Files\nodejs\node_modules\node_global;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\ffmpeg\bin;D:\soft\pgsql\bin;C:\Users\rensong.pu\AppData\Local\Microsoft\WindowsApps;D:\soft\vscode\Microsoft VS Code\bin;D:\pycharm\PyCharm 2019.1.3\bin;;D:\IDEA2019\IntelliJ IDEA 2019.2.1\bin;;C:\Users\rensong.pu\go\bin;C:\Go\bin;C:\Users\rensong.pu\AppData\Roaming\npm;C:\Users\rensong.pu\AppData\Roaming\npm\node_modules\yapi-cli\node_modules;C:\Program Files\nodejs\node_modules\node_global\node_modules\cnpm\bin;;C:\Program Files\JetBrains\DataGrip 2020.1.5\bin;;.
+java.home=C:\Program Files\Java\jdk1.8.0_221\jre
+java.class.path=C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;D:\opencode\jzoffer\test\application\target\classes;D:\java\repository\com\google\zxing\javase\3.4.0\javase-3.4.0.jar;D:\java\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\java\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;D:\java\repository\com\google\zxing\core\3.4.0\core-3.4.0.jar;D:\java\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;D:\java\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;D:\java\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\java\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;D:\java\r
+sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+file.encoding=UTF-8
+visualvm.id=608384586753400
+sun.java.command=com.lagou.Main1
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='29000'/>
+[Opened C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Object from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.Serializable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Comparable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.CharSequence from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.String from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.AnnotatedElement from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.GenericDeclaration from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Type from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Class from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Cloneable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.System from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Throwable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Error from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ThreadDeath from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Exception from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.RuntimeException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.SecurityManager from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.AccessControlContext from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.SecureClassLoader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ReflectiveOperationException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ClassNotFoundException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.LinkageError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.NoClassDefFoundError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ClassCastException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ArrayStoreException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.VirtualMachineError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.OutOfMemoryError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.StackOverflowError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.IllegalMonitorStateException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.SoftReference from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.WeakReference from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.FinalReference from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.PhantomReference from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Cleaner from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.Finalizer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Runnable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Thread from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Thread$UncaughtExceptionHandler from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ThreadGroup from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Map from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Dictionary from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Hashtable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Properties from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.AccessibleObject from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Member from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Field from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Parameter from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Executable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Method from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Constructor from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.MagicAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.MethodAccessor from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.MethodAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstructorAccessor from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstructorAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingClassLoader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstantPool from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.FieldAccessor from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.FieldAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.UnsafeFieldAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.UnsafeStaticFieldAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.annotation.Annotation from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.CallerSensitive from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandle from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.DirectMethodHandle from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MemberName from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleNatives from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.LambdaForm from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodType from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.BootstrapMethodError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.CallSite from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.ConstantCallSite from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MutableCallSite from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.VolatileCallSite from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Appendable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.AbstractStringBuilder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.StringBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.StringBuilder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Unsafe from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.AutoCloseable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.Closeable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.InputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.ByteArrayInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.File from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.URL from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.jar.Manifest from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.CodeSource from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.StackTraceElement from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.Buffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Boolean from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Character from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Number from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Float from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Double from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Byte from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Short from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Integer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Long from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.NullPointerException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ArithmeticException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.ObjectStreamField from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Comparator from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.String$CaseInsensitiveComparator from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.Guard from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.Permission from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.BasicPermission from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.RuntimePermission from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.AccessController from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.ReflectPermission from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedAction from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory$GetReflectionFactoryAction from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.cert.Certificate from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Iterable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.List from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.RandomAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.AbstractCollection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.AbstractList from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Vector from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Stack from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$Lock from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$ReferenceHandler from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.InterruptedException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.ArrayList from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Set from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.AbstractSet from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptySet from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptyList from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.AbstractMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptyMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableCollection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableList from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableRandomAccessList from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Null from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Lock from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaLangRefAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.SharedSecrets from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.IncompatibleClassChangeError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.NoSuchMethodError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.Reflection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.HashMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Map$Entry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.HashMap$Node from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.VM from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$Entry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Math from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ref.Finalizer$FinalizerThread from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.Charset from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.spi.CharsetProvider from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.FastCharsetProvider from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.util.PreHashedMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Aliases from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Classes from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Cache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicInteger from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Class$3 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Class$ReflectionData from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Class$Atomic from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.AbstractRepository from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.GenericDeclRepository from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.ClassRepository from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Class$AnnotationData from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.annotation.AnnotationType from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$ClassValueMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Modifier from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.LangReflectAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.ReflectAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Arrays from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.Charset$ExtendedProviderHolder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.Charset$ExtendedProviderHolder$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Opened C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar]
+[Loaded sun.nio.cs.AbstractCharsetProvider from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ext.ExtendedCharsets from C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar]
+[Loaded java.lang.Class$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.NativeConstructorAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingConstructorAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.SortedMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.NavigableMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.TreeMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.ASCIICaseInsensitiveComparator from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.TreeMap$Entry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.HistoricallyNamedCharset from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ext.GBK from C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar]
+[Loaded java.lang.StringCoding from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal$ThreadLocalMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal$ThreadLocalMap$Entry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.StringCoding$StringDecoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ext.DoubleByte from C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar]
+[Loaded sun.nio.cs.ext.DelegatableDecoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar]
+[Loaded sun.nio.cs.ArrayDecoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.CharsetDecoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ext.DoubleByte$Decoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar]
+[Loaded java.nio.charset.CodingErrorAction from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$EntrySet from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$SynchronizedCollection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$SynchronizedSet from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Objects from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Enumeration from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Iterator from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$Enumerator from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Runtime from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Version from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FileInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FileDescriptor from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaIOFileDescriptorAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FileDescriptor$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.Flushable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.OutputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FileOutputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FilterInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.BufferedInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedExceptionAction from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.misc.ReflectUtil from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FilterOutputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.PrintStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.BufferedOutputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.Writer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.OutputStreamWriter from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StreamEncoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.security.action.GetPropertyAction from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.Unicode from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_8 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ArrayEncoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.CharsetEncoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_8$Encoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.ByteBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.HeapByteBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.Bits from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.ByteOrder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicLong from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaNioAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.Bits$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.BufferedWriter from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.DefaultFileSystem from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FileSystem from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.WinNTFileSystem from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Enum from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.File$PathStatus from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.file.Watchable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.file.Path from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.StringCoding$StringEncoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ext.DoubleByte$Encoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar]
+[Loaded java.lang.Readable from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.CharBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.HeapCharBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$Cache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$3 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache$Entry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$Entry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$NativeLibrary from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Terminator from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.SignalHandler from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Terminator$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Signal from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.NativeSignalHandler from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Integer$IntegerCache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.OSEnvironment from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.io.Win32ErrorMode from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaLangAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.System$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.IllegalArgumentException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Compiler from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Compiler$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.URLStreamHandlerFactory from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$Factory from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.security.util.Debug from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$ParallelLoaders from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap$Entry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Collections$SetFromMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap$KeySet from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaNetAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$7 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.StringTokenizer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.MetaIndex from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.Reader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.BufferedReader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.InputStreamReader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FileReader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StreamDecoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_8$Decoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Array from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Locale from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleObjectCache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Locale$Cache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.Lock from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Segment from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Node from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$CounterCell from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$CollectionView from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$KeySetView from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$ValuesView from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$EntrySetView from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale$Cache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale$Key from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleObjectCache$CacheEntry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Locale$LocaleKey from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleUtils from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.CharacterData from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.CharacterDataLatin1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.HashMap$TreeNode from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FileInputStream$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.www.ParseUtil from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.BitSet from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.Parts from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.URLStreamHandler from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.file.Handler from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.util.IPAddressUtil from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaSecurityAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$JavaSecurityAccessImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaSecurityProtectionDomainAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$Key from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.Principal from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.HashSet from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.jar.Handler from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.SystemClassLoaderAction from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.InternalError from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.instrument.Instrumentation from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.instrument.InstrumentationImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.instrument.TransformerManager from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.instrument.TransformerManager$TransformerInfo from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.util.URLUtil from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$3 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$Loader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipConstants from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipFile from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaUtilZipFileAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipFile$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ThreadLocalCoders from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ThreadLocalCoders$Cache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ThreadLocalCoders$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ThreadLocalCoders$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.FileURLMapper from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.jar.JarFile from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JavaUtilJarAccess from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.jar.JavaUtilJarAccessImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.charset.StandardCharsets from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.US_ASCII from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ISO_8859_1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_16BE from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_16LE from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_16 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Queue from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.Deque from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.ArrayDeque from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipCoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.PerfCounter from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Perf$GetPerfAction from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Perf from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.PerfCounter$CoreCounters from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.ch.DirectBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.MappedByteBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.DirectByteBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.LongBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.DirectLongBufferU from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.JarIndex from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.ExtensionDependency from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipEntry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.jar.JarEntry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.jar.JarFile$JarFileEntry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipFile$ZipFileInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.IOUtils from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.Inflater from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZStreamRef from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.InflaterInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipFile$ZipFileInflaterInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.AbstractSequentialList from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.LinkedList from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.LinkedList$Node from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$FileLoader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipUtils from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.TimeUnit from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.TimeUnit$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.TimeUnit$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.TimeUnit$3 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.TimeUnit$4 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.TimeUnit$5 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.TimeUnit$6 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.TimeUnit$7 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.nio.file.attribute.FileTime from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.Resource from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.jar.Attributes from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.jar.Manifest$FastInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.jar.Attributes$Name from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.Package from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.ByteBuffered from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.PermissionCollection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.Permissions from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.URLConnection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.www.URLConnection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.file.FileURLConnection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.www.MessageHeader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FilePermission from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FilePermission$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.io.FilePermissionCollection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.AllPermission from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.UnresolvedPermission from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.security.BasicPermissionCollection from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded com.intellij.rt.execution.application.AppMainV2$Agent from file:/D:/IDEA2019/IntelliJ%20IDEA%202019.2.1/lib/idea_rt.jar]
+[Loaded sun.instrument.InstrumentationImpl$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.NativeMethodAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingMethodAccessorImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded com.intellij.rt.execution.application.AppMainV2 from file:/D:/IDEA2019/IntelliJ%20IDEA%202019.2.1/lib/idea_rt.jar]
+[Loaded com.intellij.rt.execution.application.AppMainV2$1 from file:/D:/IDEA2019/IntelliJ%20IDEA%202019.2.1/lib/idea_rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$ForwardingNode from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.reflect.InvocationTargetException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.NoSuchMethodException from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.Socket from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded java.lang.invoke.MethodHandleImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.SocketAddress from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.InetSocketAddress from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded java.lang.invoke.MethodHandleImpl$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.InetAddress from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<task_queued compile_id='1' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='1152' iicount='1152' level='3' stamp='0.150' comment='tiered' hot_count='1152'/>
+<writer thread='22512'/>
+<thread_logfile thread='22512' filename='C:\Users\rensong.pu\AppData\Local\Temp\\hs_c22512_pid21960.log'/>
+<writer thread='29000'/>
+[Loaded java.util.function.Function from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.InetSocketAddress$InetSocketAddressHolder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded java.lang.invoke.MethodHandleImpl$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<thread_logfile thread='29384' filename='C:\Users\rensong.pu\AppData\Local\Temp\\hs_c29384_pid21960.log'/>
+<writer thread='29316'/>
+<thread_logfile thread='29316' filename='C:\Users\rensong.pu\AppData\Local\Temp\\hs_c29316_pid21960.log'/>
+<writer thread='25068'/>
+<thread_logfile thread='25068' filename='C:\Users\rensong.pu\AppData\Local\Temp\\hs_c25068_pid21960.log'/>
+<writer thread='29000'/>
+[Loaded java.lang.invoke.MethodHandleImpl$3 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded sun.security.action.GetBooleanAction from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded java.lang.ClassValue from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleImpl$4 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.InetAddress$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded java.lang.ClassValue$Entry from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+<nmethod compile_id='2' compile_kind='c2n' level='0' entry='0x0000000003d74fc0' size='920' address='0x0000000003d74e50' relocation_offset='288' consts_offset='920' insts_offset='368' method='java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V' bytes='0' count='3968' iicount='3968' stamp='0.152'/>
+<writer thread='29000'/>
+[Loaded java.lang.ClassValue$Identity from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$Version from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+<task_queued compile_id='3' method='java/lang/String charAt (I)C' bytes='29' count='114944' iicount='114944' stamp='0.152' comment='tiered' hot_count='114944'/>
+<writer thread='29000'/>
+[Loaded java.lang.invoke.MemberName$Factory from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='1' compiler='C1' level='3' entry='0x0000000003d72ee0' size='2336' address='0x0000000003d72d10' relocation_offset='288' insts_offset='464' stub_offset='1520' scopes_data_offset='1752' scopes_pcs_offset='2024' dependencies_offset='2296' nul_chk_table_offset='2304' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='1156' iicount='1156' stamp='0.152'/>
+<writer thread='29000'/>
+[Loaded java.lang.invoke.MethodHandleStatics from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleStatics$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<task_queued compile_id='4' method='java/lang/String hashCode ()I' bytes='55' count='1475' backedge_count='31744' iicount='1475' stamp='0.153' comment='tiered' hot_count='1475'/>
+<blob name='MethodHandlesAdapterBlob' size='32000'>
+<sect index='1' size='32000' free='31628'/>
+</blob>
+[Loaded sun.misc.PostVMInitHook from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.PostVMInitHook$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded jdk.internal.util.EnvUtils from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<task_queued compile_id='5' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='12672' backedge_count='11051' iicount='12672' stamp='0.153' comment='tiered' hot_count='12672'/>
+[Loaded sun.misc.PostVMInitHook$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicBoolean from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<task_queued compile_id='6' method='java/lang/Character toLowerCase (I)I' bytes='9' count='5632' iicount='5632' stamp='0.154' comment='tiered' hot_count='5632'/>
+<task_queued compile_id='7' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='5632' iicount='5632' level='3' stamp='0.154' comment='tiered' hot_count='5632'/>
+[Loaded sun.usagetracker.UsageTrackerClient$4 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='7' compiler='C1' level='2' entry='0x0000000003d74b60' size='1048' address='0x0000000003d74a10' relocation_offset='288' insts_offset='336' stub_offset='624' scopes_data_offset='792' scopes_pcs_offset='920' dependencies_offset='1016' nul_chk_table_offset='1024' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='5674' iicount='5674' stamp='0.154'/>
+<writer thread='29000'/>
+[Loaded sun.usagetracker.UsageTrackerClient$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient$3 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<task_queued compile_id='8' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='6784' iicount='6784' stamp='0.155' comment='tiered' hot_count='6784'/>
+<writer thread='25068'/>
+<nmethod compile_id='3' compiler='C2' level='4' entry='0x0000000003d74860' size='752' address='0x0000000003d74710' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='560' scopes_pcs_offset='632' dependencies_offset='728' nul_chk_table_offset='736' method='java/lang/String charAt (I)C' bytes='29' count='115299' iicount='115299' stamp='0.155'/>
+<writer thread='29000'/>
+<task_queued compile_id='9' method='java/lang/String indexOf (I)I' bytes='7' count='768' iicount='768' level='3' stamp='0.155' comment='tiered' hot_count='768'/>
+<task_queued compile_id='10' method='java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;' bytes='50' count='1024' iicount='1024' level='3' stamp='0.155' comment='tiered' hot_count='1024'/>
+<task_queued compile_id='11' method='java/lang/String length ()I' bytes='6' count='28928' iicount='28928' stamp='0.155' comment='tiered' hot_count='28928'/>
+<writer thread='29384'/>
+<nmethod compile_id='9' compiler='C1' level='3' entry='0x0000000003d74480' size='992' address='0x0000000003d74310' relocation_offset='288' insts_offset='368' stub_offset='720' scopes_data_offset='896' scopes_pcs_offset='920' dependencies_offset='984' method='java/lang/String indexOf (I)I' bytes='7' count='769' iicount='769' stamp='0.155'/>
+<writer thread='29000'/>
+<task_queued compile_id='12' method='java/lang/System getSecurityManager ()Ljava/lang/SecurityManager;' bytes='4' count='640' iicount='640' level='3' stamp='0.155' comment='tiered' hot_count='640'/>
+<writer thread='22512'/>
+<nmethod compile_id='4' compiler='C2' level='4' entry='0x0000000003d74100' size='816' address='0x0000000003d73fd0' relocation_offset='288' insts_offset='304' stub_offset='656' scopes_data_offset='688' scopes_pcs_offset='728' dependencies_offset='792' nul_chk_table_offset='800' method='java/lang/String hashCode ()I' bytes='55' count='1512' backedge_count='32457' iicount='1512' stamp='0.156'/>
+<writer thread='25068'/>
+<nmethod compile_id='6' compiler='C2' level='4' entry='0x0000000003d73e00' size='744' address='0x0000000003d73cd0' relocation_offset='288' insts_offset='304' stub_offset='464' scopes_data_offset='544' scopes_pcs_offset='656' dependencies_offset='736' oops_offset='488' method='java/lang/Character toLowerCase (I)I' bytes='9' count='5685' iicount='5685' stamp='0.156'/>
+<writer thread='22512'/>
+<nmethod compile_id='11' compiler='C2' level='4' entry='0x0000000003d75440' size='520' address='0x0000000003d75310' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='432' scopes_pcs_offset='448' dependencies_offset='496' nul_chk_table_offset='504' method='java/lang/String length ()I' bytes='6' count='28968' iicount='28968' stamp='0.156'/>
+<writer thread='29384'/>
+<nmethod compile_id='10' compiler='C1' level='3' entry='0x0000000003d76020' size='3088' address='0x0000000003d75e50' relocation_offset='288' insts_offset='464' stub_offset='2128' scopes_data_offset='2384' scopes_pcs_offset='2808' dependencies_offset='3048' nul_chk_table_offset='3056' method='java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;' bytes='50' count='1028' iicount='1028' stamp='0.156'/>
+<writer thread='29000'/>
+<task_queued compile_id='13' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='27' count='13440' iicount='13440' stamp='0.156' comment='tiered' hot_count='13440'/>
+<writer thread='25068'/>
+<nmethod compile_id='8' compiler='C2' level='4' entry='0x0000000003d73bc0' size='560' address='0x0000000003d73a90' relocation_offset='288' insts_offset='304' stub_offset='432' scopes_data_offset='464' scopes_pcs_offset='480' dependencies_offset='528' handler_table_offset='536' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='6811' iicount='6811' stamp='0.156'/>
+<writer thread='29384'/>
+<nmethod compile_id='12' compiler='C1' level='3' entry='0x0000000003d75ca0' size='744' address='0x0000000003d75b50' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='688' dependencies_offset='736' method='java/lang/System getSecurityManager ()Ljava/lang/SecurityManager;' bytes='4' count='641' iicount='641' stamp='0.156'/>
+<writer thread='29000'/>
+[Loaded java.io.FileOutputStream$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.InetAddress$InetAddressHolder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.InetAddress$Cache from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded sun.launcher.LauncherHelper from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.InetAddress$Cache$Type from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.InetAddressImplFactory from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+<task_queued compile_id='14' method='java/lang/String startsWith (Ljava/lang/String;)Z' bytes='7' count='640' iicount='640' level='3' stamp='0.157' comment='tiered' hot_count='640'/>
+<writer thread='29316'/>
+<nmethod compile_id='5' compiler='C2' level='4' entry='0x0000000003d822a0' size='1280' address='0x0000000003d82150' relocation_offset='288' insts_offset='336' stub_offset='912' scopes_data_offset='952' scopes_pcs_offset='1112' dependencies_offset='1240' nul_chk_table_offset='1248' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='12707' backedge_count='11136' iicount='12707' stamp='0.157'/>
+<writer thread='21328'/>
+<task_queued compile_id='15' method='java/lang/StringBuilder toString ()Ljava/lang/String;' bytes='17' count='384' iicount='384' level='3' stamp='0.157' comment='tiered' hot_count='384'/>
+<writer thread='29000'/>
+<task_queued compile_id='16' method='java/lang/String startsWith (Ljava/lang/String;I)Z' bytes='72' count='1152' backedge_count='4013' iicount='1152' level='3' stamp='0.157' comment='tiered' hot_count='1152'/>
+<task_queued compile_id='17' method='java/util/Arrays copyOf ([BI)[B' bytes='19' count='384' iicount='384' level='3' stamp='0.157' comment='tiered' hot_count='384'/>
+<writer thread='21328'/>
+<task_queued compile_id='18' method='sun/instrument/TransformerManager getSnapshotTransformerList ()[Lsun/instrument/TransformerManager$TransformerInfo;' bytes='5' count='128' iicount='128' level='1' stamp='0.157' comment='tiered' hot_count='128'/>
+[Loaded java.net.InetAddressImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='14' compiler='C1' level='3' entry='0x0000000003d81ec0' size='992' address='0x0000000003d81d50' relocation_offset='288' insts_offset='368' stub_offset='720' scopes_data_offset='896' scopes_pcs_offset='920' dependencies_offset='984' method='java/lang/String startsWith (Ljava/lang/String;)Z' bytes='7' count='706' iicount='706' stamp='0.157'/>
+<writer thread='21328'/>
+[Loaded java.net.Inet6AddressImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+<task_queued compile_id='19' method='java/lang/Math min (II)I' bytes='11' count='2944' iicount='2944' level='3' stamp='0.158' comment='tiered' hot_count='2944'/>
+<task_queued compile_id='20' method='java/lang/String indexOf (II)I' bytes='70' count='791' backedge_count='34816' iicount='791' level='3' stamp='0.158' comment='tiered' hot_count='791'/>
+<writer thread='29384'/>
+<nmethod compile_id='16' compiler='C1' level='3' entry='0x0000000003d81640' size='1600' address='0x0000000003d814d0' relocation_offset='288' insts_offset='368' stub_offset='1040' scopes_data_offset='1192' scopes_pcs_offset='1400' dependencies_offset='1560' nul_chk_table_offset='1568' method='java/lang/String startsWith (Ljava/lang/String;I)Z' bytes='72' count='1177' backedge_count='4118' iicount='1177' stamp='0.158'/>
+<writer thread='29000'/>
+[Loaded sun.misc.URLClassPath$FileLoader$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded sun.net.spi.nameservice.NameService from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.InetAddress$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='20' compiler='C1' level='3' entry='0x0000000003d80fe0' size='1624' address='0x0000000003d80e50' relocation_offset='288' insts_offset='400' stub_offset='1168' scopes_data_offset='1344' scopes_pcs_offset='1472' dependencies_offset='1600' nul_chk_table_offset='1608' method='java/lang/String indexOf (II)I' bytes='70' count='791' backedge_count='34832' iicount='791' stamp='0.158'/>
+<writer thread='21328'/>
+[Loaded java.net.Inet4Address from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='19' compiler='C1' level='3' entry='0x0000000003d80c60' size='816' address='0x0000000003d80b10' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='760' dependencies_offset='808' method='java/lang/Math min (II)I' bytes='11' count='2965' iicount='2965' stamp='0.158'/>
+<writer thread='29000'/>
+<task_queued compile_id='21' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='12416' iicount='12416' stamp='0.158' comment='tiered' hot_count='12416'/>
+<task_queued compile_id='22' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='9600' iicount='9600' stamp='0.158' comment='tiered' hot_count='9600'/>
+<task_queued compile_id='23' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='10624' iicount='10624' stamp='0.158' comment='tiered' hot_count='10624'/>
+<writer thread='22512'/>
+<nmethod compile_id='13' compiler='C2' level='4' entry='0x0000000003d841a0' size='1384' address='0x0000000003d84050' relocation_offset='288' insts_offset='336' stub_offset='1008' scopes_data_offset='1080' scopes_pcs_offset='1192' dependencies_offset='1288' handler_table_offset='1296' nul_chk_table_offset='1368' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='27' count='13564' iicount='13564' stamp='0.158'/>
+<writer thread='29384'/>
+<nmethod compile_id='15' compiler='C1' level='3' entry='0x0000000003d83d80' size='1024' address='0x0000000003d83c10' relocation_offset='288' insts_offset='368' stub_offset='720' scopes_data_offset='896' scopes_pcs_offset='936' dependencies_offset='1016' method='java/lang/StringBuilder toString ()Ljava/lang/String;' bytes='17' count='392' iicount='392' stamp='0.159'/>
+<writer thread='21328'/>
+[Loaded java.net.SocksConsts from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='17' compiler='C1' level='3' entry='0x0000000003d837c0' size='1424' address='0x0000000003d83650' relocation_offset='288' insts_offset='368' stub_offset='1008' scopes_data_offset='1192' scopes_pcs_offset='1288' dependencies_offset='1400' nul_chk_table_offset='1408' method='java/util/Arrays copyOf ([BI)[B' bytes='19' count='391' iicount='391' stamp='0.159'/>
+<writer thread='22512'/>
+<nmethod compile_id='23' compiler='C2' level='4' entry='0x0000000003d7f540' size='472' address='0x0000000003d7f410' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='424' scopes_pcs_offset='432' dependencies_offset='464' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='10690' iicount='10690' stamp='0.159'/>
+<writer thread='29384'/>
+<nmethod compile_id='18' compiler='C1' level='1' entry='0x0000000003d7f260' size='656' address='0x0000000003d7f110' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='608' scopes_pcs_offset='616' dependencies_offset='648' method='sun/instrument/TransformerManager getSnapshotTransformerList ()[Lsun/instrument/TransformerManager$TransformerInfo;' bytes='5' count='136' iicount='136' stamp='0.159'/>
+<writer thread='29000'/>
+[Loaded com.lagou.Main1 from file:/D:/opencode/jzoffer/test/application/target/classes/]
+<writer thread='21328'/>
+[Loaded java.net.SocketOptions from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded sun.launcher.LauncherHelper$FXHelper from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.SocketImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.AbstractPlainSocketImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded java.lang.Class$MethodArray from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.PlainSocketImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.SocksSocketImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded java.lang.Void from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='21328'/>
+[Loaded java.net.AbstractPlainSocketImpl$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+<task_queued compile_id='24' method='java/util/ArrayList size ()I' bytes='5' count='384' iicount='384' level='1' stamp='0.160' comment='tiered' hot_count='384'/>
+<task_queued compile_id='25' method='sun/misc/URLClassPath getNextLoader ([II)Lsun/misc/URLClassPath$Loader;' bytes='88' count='256' iicount='256' level='3' stamp='0.161' comment='tiered' hot_count='256'/>
+<task_queued compile_id='26' method='sun/misc/URLClassPath getLoader (I)Lsun/misc/URLClassPath$Loader;' bytes='243' count='256' backedge_count='64' iicount='256' level='3' stamp='0.161' comment='tiered' hot_count='256'/>
+<task_queued compile_id='27' method='sun/nio/cs/UTF_8$Encoder encode ([CII[B)I' bytes='359' count='245' backedge_count='9216' iicount='245' level='3' stamp='0.161' comment='tiered' hot_count='245'/>
+<writer thread='29384'/>
+<nmethod compile_id='24' compiler='C1' level='1' entry='0x0000000003d830e0' size='656' address='0x0000000003d82f90' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='608' scopes_pcs_offset='616' dependencies_offset='648' method='java/util/ArrayList size ()I' bytes='5' count='410' iicount='410' stamp='0.161'/>
+<writer thread='29000'/>
+<task_queued compile_id='28' method='java/lang/String indexOf ([CII[CIII)I' bytes='166' count='229' backedge_count='11264' iicount='229' level='3' stamp='0.161' comment='tiered' hot_count='229'/>
+<writer thread='21328'/>
+[Loaded java.net.PlainSocketImpl$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.FloatingDecimal from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+<task_queued compile_id='29' method='java/net/URL getFile ()Ljava/lang/String;' bytes='5' count='256' iicount='256' level='1' stamp='0.161' comment='tiered' hot_count='256'/>
+<task_queued compile_id='30' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='1408' iicount='1408' level='3' stamp='0.161' comment='tiered' hot_count='1408'/>
+<writer thread='21328'/>
+[Loaded sun.misc.FloatingDecimal$BinaryToASCIIConverter from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+[Loaded com.lagou.Main1$TestThread from file:/D:/opencode/jzoffer/test/application/target/classes/]
+<writer thread='21328'/>
+[Loaded sun.misc.FloatingDecimal$ExceptionalBinaryToASCIIBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='28' compiler='C1' level='3' entry='0x0000000003d80100' size='2976' address='0x0000000003d7ff50' relocation_offset='288' insts_offset='432' stub_offset='1904' scopes_data_offset='2056' scopes_pcs_offset='2640' dependencies_offset='2928' nul_chk_table_offset='2936' method='java/lang/String indexOf ([CII[CIII)I' bytes='166' count='230' backedge_count='11300' iicount='230' stamp='0.161'/>
+<writer thread='21328'/>
+[Loaded sun.misc.FloatingDecimal$BinaryToASCIIBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+<task_queued compile_id='31' method='com/lagou/Main1$TestThread isStop ()Z' bytes='5' count='128' iicount='128' level='1' stamp='0.162' comment='tiered' hot_count='128'/>
+<task_queued compile_id='32' method='com/lagou/Main1$TestThread access$000 (Lcom/lagou/Main1$TestThread;)Z' bytes='5' count='512' iicount='512' level='3' stamp='0.162' comment='tiered' hot_count='512'/>
+<writer thread='21328'/>
+[Loaded sun.misc.FloatingDecimal$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.FloatingDecimal$ASCIIToBinaryConverter from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.misc.FloatingDecimal$PreparedASCIIToBinaryBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29316'/>
+<nmethod compile_id='21' compiler='C2' level='4' entry='0x0000000003d7fa20' size='1640' address='0x0000000003d7f8d0' relocation_offset='288' insts_offset='336' stub_offset='1136' scopes_data_offset='1216' scopes_pcs_offset='1416' dependencies_offset='1544' handler_table_offset='1552' nul_chk_table_offset='1624' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='12569' iicount='12569' stamp='0.162'/>
+<writer thread='21328'/>
+[Loaded sun.misc.FloatingDecimal$ASCIIToBinaryBuffer from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.DualStackPlainSocketImpl from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='27' compiler='C1' level='3' entry='0x0000000003d86600' size='4936' address='0x0000000003d86410' relocation_offset='288' insts_offset='496' stub_offset='3152' scopes_data_offset='3360' scopes_pcs_offset='4344' dependencies_offset='4872' nul_chk_table_offset='4880' method='sun/nio/cs/UTF_8$Encoder encode ([CII[B)I' bytes='359' count='251' backedge_count='9437' iicount='251' stamp='0.162'/>
+<writer thread='21328'/>
+[Loaded java.net.Inet6Address from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='31' compiler='C1' level='1' entry='0x0000000003d862a0' size='664' address='0x0000000003d86150' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' oops_offset='608' method='com/lagou/Main1$TestThread isStop ()Z' bytes='5' count='32127' iicount='32140' stamp='0.163'/>
+<writer thread='21328'/>
+[Loaded java.net.Inet6Address$Inet6AddressHolder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='32' compiler='C1' level='2' entry='0x0000000003d85b20' size='776' address='0x0000000003d859d0' relocation_offset='288' insts_offset='336' stub_offset='496' scopes_data_offset='664' scopes_pcs_offset='688' dependencies_offset='752' nul_chk_table_offset='760' oops_offset='640' method='com/lagou/Main1$TestThread access$000 (Lcom/lagou/Main1$TestThread;)Z' bytes='5' count='41122' iicount='41144' stamp='0.163'/>
+<writer thread='29000'/>
+<task_queued compile_id='33' method='com/lagou/Main1$TestThread access$000 (Lcom/lagou/Main1$TestThread;)Z' bytes='5' count='42765' iicount='42765' stamp='0.163' comment='tiered' hot_count='42765'/>
+<writer thread='21328'/>
+[Loaded java.net.SocksSocketImpl$3 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.ProxySelector from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='22512'/>
+<nmethod compile_id='33' compiler='C2' level='4' entry='0x0000000003d85900' size='496' address='0x0000000003d857d0' relocation_offset='288' insts_offset='304' stub_offset='368' scopes_data_offset='408' scopes_pcs_offset='424' dependencies_offset='472' nul_chk_table_offset='480' oops_offset='392' method='com/lagou/Main1$TestThread access$000 (Lcom/lagou/Main1$TestThread;)Z' bytes='5' count='71878' iicount='71917' stamp='0.163'/>
+<make_not_entrant thread='22512' compile_id='32' compiler='C1' level='2' stamp='0.163'/>
+<writer thread='21328'/>
+[Loaded sun.net.spi.DefaultProxySelector from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.spi.DefaultProxySelector$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.NetProperties from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+<task_queued compile_id='34' compile_kind='osr' method='com/lagou/Main1 main ([Ljava/lang/String;)V' bytes='36' count='1' backedge_count='96256' iicount='1' osr_bci='14' level='3' stamp='0.163' comment='tiered' hot_count='96256'/>
+<writer thread='21328'/>
+[Loaded sun.net.NetProperties$1 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='25068'/>
+<nmethod compile_id='22' compiler='C2' level='4' entry='0x0000000003d84f20' size='2496' address='0x0000000003d84dd0' relocation_offset='288' insts_offset='336' stub_offset='1808' scopes_data_offset='1904' scopes_pcs_offset='2256' dependencies_offset='2400' handler_table_offset='2408' nul_chk_table_offset='2480' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='9673' iicount='9673' stamp='0.164'/>
+<writer thread='21328'/>
+[Loaded java.util.Properties$LineReader from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.URI from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='26' compiler='C1' level='3' entry='0x0000000003d8c4c0' size='19768' address='0x0000000003d8c090' relocation_offset='288' insts_offset='1072' stub_offset='12272' scopes_data_offset='12856' scopes_pcs_offset='17392' dependencies_offset='18832' handler_table_offset='18848' nul_chk_table_offset='19616' method='sun/misc/URLClassPath getLoader (I)Lsun/misc/URLClassPath$Loader;' bytes='243' count='269' backedge_count='64' iicount='269' stamp='0.165'/>
+<writer thread='21328'/>
+[Loaded java.net.URI$Parser from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<task_queued compile_id='35' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='6144' iicount='6144' stamp='0.165' comment='tiered' hot_count='6144'/>
+<writer thread='29384'/>
+<nmethod compile_id='34' compile_kind='osr' compiler='C1' level='3' entry='0x0000000003d8b280' size='2480' address='0x0000000003d8b0d0' relocation_offset='288' insts_offset='432' stub_offset='1712' scopes_data_offset='1944' scopes_pcs_offset='2184' dependencies_offset='2440' nul_chk_table_offset='2448' oops_offset='1912' method='com/lagou/Main1 main ([Ljava/lang/String;)V' bytes='36' count='1' backedge_count='291509' iicount='1' stamp='0.165'/>
+<writer thread='21328'/>
+[Loaded sun.net.spi.DefaultProxySelector$NonProxyInfo from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29000'/>
+<task_queued compile_id='36' compile_kind='osr' method='com/lagou/Main1 main ([Ljava/lang/String;)V' bytes='36' count='1' backedge_count='301056' iicount='1' osr_bci='14' stamp='0.166' comment='tiered' hot_count='301056'/>
+<writer thread='21328'/>
+[Loaded sun.net.spi.DefaultProxySelector$3 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.Proxy from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29316'/>
+<nmethod compile_id='35' compiler='C2' level='4' entry='0x0000000003d88340' size='520' address='0x0000000003d88210' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='448' scopes_pcs_offset='464' dependencies_offset='512' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='6148' iicount='6148' stamp='0.166'/>
+<writer thread='21328'/>
+[Loaded java.net.Proxy$Type from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.util.ArrayList$Itr from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.net.NetHooks from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+<writer thread='29384'/>
+<nmethod compile_id='30' compiler='C1' level='3' entry='0x0000000003d91020' size='4704' address='0x0000000003d90e10' relocation_offset='288' insts_offset='528' stub_offset='3152' scopes_data_offset='3472' scopes_pcs_offset='4280' dependencies_offset='4680' nul_chk_table_offset='4688' oops_offset='3400' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='1443' iicount='1443' stamp='0.166'/>
+<writer thread='22512'/>
+<nmethod compile_id='36' compile_kind='osr' compiler='C2' level='4' entry='0x0000000003d88080' size='664' address='0x0000000003d87f50' relocation_offset='288' insts_offset='304' stub_offset='464' scopes_data_offset='512' scopes_pcs_offset='560' dependencies_offset='640' nul_chk_table_offset='648' oops_offset='488' method='com/lagou/Main1 main ([Ljava/lang/String;)V' bytes='36' count='1' backedge_count='607409' iicount='1' stamp='0.166'/>
+<make_not_entrant thread='22512' compile_id='34' compile_kind='osr' compiler='C1' level='3' stamp='0.166'/>
+<writer thread='29000'/>
+<task_queued compile_id='37' method='com/lagou/Main1 main ([Ljava/lang/String;)V' bytes='36' count='1' backedge_count='613376' iicount='1' stamp='0.166' comment='tiered' hot_count='1'/>
+<writer thread='29384'/>
+<nmethod compile_id='25' compiler='C1' level='3' entry='0x0000000003d8a3e0' size='3744' address='0x0000000003d8a210' relocation_offset='288' insts_offset='464' stub_offset='2448' scopes_data_offset='2696' scopes_pcs_offset='3392' dependencies_offset='3696' nul_chk_table_offset='3704' method='sun/misc/URLClassPath getNextLoader ([II)Lsun/misc/URLClassPath$Loader;' bytes='88' count='269' iicount='269' stamp='0.167'/>
+<nmethod compile_id='29' compiler='C1' level='1' entry='0x0000000003d87de0' size='656' address='0x0000000003d87c90' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='608' scopes_pcs_offset='616' dependencies_offset='648' method='java/net/URL getFile ()Ljava/lang/String;' bytes='5' count='256' iicount='256' stamp='0.167'/>
+<writer thread='22512'/>
+<nmethod compile_id='37' compiler='C2' level='4' entry='0x0000000003d87a20' size='920' address='0x0000000003d878d0' relocation_offset='288' insts_offset='336' stub_offset='560' scopes_data_offset='648' scopes_pcs_offset='728' dependencies_offset='840' handler_table_offset='848' oops_offset='616' method='com/lagou/Main1 main ([Ljava/lang/String;)V' bytes='36' count='1' backedge_count='613376' iicount='1' stamp='0.167'/>
+<writer thread='21328'/>
+[Loaded java.net.Socket$2 from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded java.net.SocketInputStream from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]
+[Loaded sun.nio.cs.US_ASCII$Decoder from C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar]

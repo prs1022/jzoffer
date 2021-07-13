@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author rensong.pu
@@ -7,6 +6,20 @@ import java.util.List;
  **/
 public class F {
     public static void main(String[] args) {
-        List<String> li = new ArrayList<>();
+       Map map = new HashMap();
+       map.put(null,"");
+       map.put("null",null);
+       map.put(null,null);
+        System.out.println(map.size());
+
+        Set set  = new HashSet();
+        set.add(null);
+        set.add("null");
+        System.out.println(set.size());
+
+        set = new TreeSet();
+        set.add("null");
+        set.add(null);
+        System.out.println(set.size());
     }
 }
