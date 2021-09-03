@@ -110,7 +110,6 @@
 //        // 创建标题栏样式
 //        CellStyle styleTitle = wb.createCellStyle();
 //        // 水平居中
-//        styleTitle.setAlignment(CellStyle.ALIGN_CENTER);
 //        //垂直居中
 //        styleTitle.setVerticalAlignment(CellStyle.VERTICAL_CENTER);
 //        // 设置背景色

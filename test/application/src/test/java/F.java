@@ -22,4 +22,10 @@ public class F {
         set.add(null);
         System.out.println(set.size());
     }
+
+    public boolean test(){
+        Object val = null;
+        if(val==null) return false;
+        return true;
+    }
 }
