@@ -37,6 +37,7 @@ package leetcode.array;
 // Related Topics 数组 回溯
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -46,60 +47,82 @@ import java.util.List;
 public class N皇后 {
     public static void main(String[] args) {
         for (int i = 1; i <= 9; i++) {
-            System.out.println("\n>>>>>>>>>>>当前N:" + i);
             List<List<String>> lists = new N皇后().solveNQueens(i);
-            lists.forEach(e -> {
-                e.forEach(ei -> {
-                    System.out.print(ei + " ");
-                });
-                System.out.println();
-            });
+            System.out.println("\n>>>>>>>>>>>当前N:" + i+"--总解法："+lists.size());
+            System.out.println(lists);
         }
     }
 
+    public List<List<String>> result = new ArrayList<List<String>>();
+
     public List<List<String>> solveNQueens(int n) {
-        List<List<String>> result = new ArrayList<List<String>>();
+        //初始化，Q 是放置的皇后，. 为空
+        char[][] array = new char[n][n];
         for (int i = 0; i < n; i++) {
-            //i 行
-            List<String> row = new ArrayList<String>();
             for (int j = 0; j < n; j++) {
-                //j 列
-                if (valid(i, j, n, result)) {
-                    row.add(j, "Q");
-                }
+                array[i][j] = '.';
             }
-            result.add(i, row);
         }
+        set_queue(0, array);
+
         return result;
     }
 
-    //todo  不需要考虑当前行下面的，甚至不需要考虑当前行再放一个，因为一行有且只能放一个
-    public boolean valid(int i, int j, int n, List<List<String>> queues) {
+    public void set_queue(int row, char[][] queue) {
+        int n = queue.length;
+        if (row == n) {
+            result.add(transfer(queue));
+            return;
+        }
+        for (int col = 0; col < n; col++) {
+            //每行恰好放一个，每一列都有可能
+            if (!valid(row, col, n, queue)) {
+                continue;
+            }
+            //尝试放
+            queue[row][col] = 'Q';
+            //进入下一行
+            set_queue(row + 1, queue);
+            //撤销之前的尝试
+            queue[row][col] = '.';
+        }
+    }
+
+    //不需要考虑当前行下面的，甚至不需要考虑当前行再放一个，因为一行有且只能放一个
+    public boolean valid(int i, int j, int n, char[][] queue) {
         //检测该行该列是否可以放
-        if (queues.get(i).contains("Q")) {
-            return false;
+        for (int k = 0; k < n; k++) {
+            if (queue[k][j] == 'Q') {
+                return false;
+            }
         }
-        for (int x = 0; x < n; x++) {
-            if (queues.get(x).get(j).equals("Q")) {
+        for (int k = i - 1, m = j + 1; k >= 0 && m < n; k--, m++) {
+            //检测↗  方向，不需要考虑当前行下面的行
+            if (queue[k][m] == 'Q') {
+                return false;
+            }
+        }
+        //检测 ↘ 方向，不需要考虑当前行下面的行
+        for (int k = i - 1, m = j - 1; k >= 0 && m >= 0; k--, m--) {
+            if(queue[k][m]=='Q'){
                 return false;
             }
         }
 
-
-        for (int x = i, y = j; x < n && y < n && 2 * j - y > 0; x++, y++) {
-            if (queues.get(x).get(y).equals("Q") ||
-                    queues.get(x).get(2 * j - y).equals("Q")) {
-                return false;
-            }
-        }
-
-        for (int x = i, y = j; x > 0 && y < n && 2 * j - y > 0; x--, y++) {
-            if (queues.get(x).get(y).equals("Q") ||
-                    queues.get(x).get(2 * j - y).equals("Q")) {
-                return false;
-            }
-        }
         return true;
+    }
+
+    /**
+     * 二维数组转列表
+     *
+     * @param a
+     */
+    public List<String> transfer(char[][] a) {
+        List<String> list = new ArrayList<String>();
+        for (int i = 0; i < a.length; i++) {
+            list.add(String.copyValueOf(a[i]));
+        }
+        return list;
     }
 
 }
