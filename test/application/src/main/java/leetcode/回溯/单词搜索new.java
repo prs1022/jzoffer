@@ -47,22 +47,21 @@ package leetcode.回溯;
 // Related Topics 数组 回溯 矩阵
 // 👍 1026 👎 0
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
+ * 第二种写法
+ *
  * @author rensong.pu
  * @date 2021/9/16 11:08 星期四
  **/
-public class 单词搜索 {
+public class 单词搜索new {
 
     // 搜索的四个方向，这种技巧比较常用
     public int[][] directions = new int[][]{{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
     public static void main(String[] args) {
-        char[][] board = new char[][]{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
-        String word = "SEE";
-        System.out.println(word + "是否存在:" + new 单词搜索().exist(board, word));
+        char[][] board = new char[][]{{'A'}};
+        String word = "A";
+        System.out.println(word + "是否存在:" + new 单词搜索new().exist(board, word));
     }
 
     public boolean exist(char[][] board, String word) {
@@ -73,17 +72,8 @@ public class 单词搜索 {
         boolean[][] visited = new boolean[board.length][board[0].length];
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
-                // 外层： 遍历board 所有元素，找到第一个与word相同的元素，然后进入递归流程，记得打上标记
-                if (board[i][j] == word.charAt(0)) {
-                    //匹配到第一个字符，标记
-                    visited[i][j] = true;
-                    //进入递归
-                    if (dfs(i, j, board, visited, word, 1)) {
-                        return true;
-                    } else {
-                        //回溯
-                        visited[i][j] = false;
-                    }
+                if (dfs(i, j, board, visited, word, 0)) {
+                    return true;
                 }
             }
         }
@@ -103,27 +93,26 @@ public class 单词搜索 {
      * @return
      */
     public boolean dfs(int i, int j, char[][] board, boolean[][] visited, String word, int k) {
-        if (k == word.length()) {
-            return true;
+        //这里重要，不能这样写，一个字符的时候 会出错
+//        if (k == word.length()) {
+//            return true;
+//        }
+        if (k == word.length() - 1) {
+            return board[i][j] == word.charAt(k);
         }
+        if (board[i][j] == word.charAt(k)) {
+            visited[i][j] = true;
 
-        // 从 i,j出发 向上下左右试探，看看是否能匹配word 的下一个字母
-        // 如果匹配，则带着元素 进入下一个递归
-        for (int p = 0; p < directions.length; p++) {
-            int new_i = i + directions[p][0];
-            int new_j = j + directions[p][1];
-            if (inArea(new_i, new_j, board.length, board[0].length)) {
-                if (board[new_i][new_j] == word.charAt(k) && !visited[new_i][new_j]) {
-                    // 标记
-                    visited[new_i][new_j] = true;
-                    // 重要！！ 不能直接return dfs，否则
+            for (int p = 0; p < directions.length; p++) {
+                int new_i = i + directions[p][0];
+                int new_j = j + directions[p][1];
+                if (inArea(new_i, new_j, board.length, board[0].length) && !visited[new_i][new_j]) {
                     if (dfs(new_i, new_j, board, visited, word, k + 1)) {
                         return true;
-                    } else {
-                        visited[new_i][new_j] = false;
                     }
                 }
             }
+            visited[i][j] = false;//回溯
         }
         return false;
     }
