@@ -70,6 +70,7 @@ public class 单词搜索 {
             return false;
         }
         //定义一个与board等大的空间，用于记录是否访问过，作为回溯的依据
+        // 这种做法是会浪费空间，也可以将访问过的board临时替换为*，回溯的时候再恢复
         boolean[][] visited = new boolean[board.length][board[0].length];
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
