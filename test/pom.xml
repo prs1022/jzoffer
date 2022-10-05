@@ -103,7 +103,7 @@
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>3.7.1</version>
+            <version>3.16.3</version>
         </dependency>
         <!--zxing begin-->
         <dependency>
@@ -193,7 +193,7 @@
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>3.6.1</version>
+            <version>3.16.3</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
